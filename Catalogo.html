@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo Corsario</title>
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: #FF7F28;
+            /* Mismo naranja del header — cubre cualquier flash */
+        }
+
+        .frame-wrap {
+            width: 100%;
+            /* Sube el iframe para esconder el banner de ~45px */
+            height: calc(100vh + 45px);
+            margin-top: -45px;
+            overflow: hidden;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="frame-wrap">
+        <iframe src="https://script.google.com/macros/s/AKfycbx6iehPYSGUmKLDtgljMGTBfTuFLoaRznthzXjOyK9OHs-ez6bAjPzFRK1Uf6kqmOzV/exec" allowfullscreen loading="eager"></iframe>
+    </div>
+
+</body>
+
+</html>
