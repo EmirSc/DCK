@@ -10,3 +10,6 @@ desktop.ini
 # Secrets
 .env
 *.env
+
+# Hook de diseno
+.impeccable/
